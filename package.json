@@ -1,0 +1,29 @@
+{
+  "name": "health-vault",
+  "version": "1.0.0",
+  "description": "An all-in-one Portal for Patients and Doctors to view past Medical Records and Prescriptions",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rithish-Sripaul/health-vault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rithish-Sripaul/health-vault/issues"
+  },
+  "homepage": "https://github.com/Rithish-Sripaul/health-vault#readme",
+  "devDependencies": {
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.17.2"
+  }
+}
