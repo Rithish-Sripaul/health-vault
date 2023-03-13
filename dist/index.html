@@ -5,15 +5,77 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-
-  <title>Health Vault</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Just u</title>
 </head>
 
-<body>
-  <h1>Hello World</h1>
-  <script src="bundle.js"></script>
+<body class="h-100 ">
+  <!-- <div class="h-100 bg-success fixed-top translate-middle end-75 top-50 d-md-none d-lg-block d-sm-none d-md-block"
+    style="border-radius: 1000px;"></div> -->
+  <div class="container h-100">
+    <div class="row h-100 align-items-center justify-content-center">
+      <div class="col-lg logoMain text-center">
+        <img src="../img/main-logo.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="col-lg flexBoxCenter">
+        <!-- SIGN IN FORM -->
+        <div class="card shadow p-3 pb-5" style="width: 350px; border-radius: 12px;">
+          <form action="" class="signin text-center">
+            <h1 class="mb-4 le" style="letter-spacing: 1px;">Sign In</h1>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control fs-4 h-25" name="email" placeholder="name@example.com">
+              <label for="email">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control fs-4 h-25" name="password" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating mt-4">
+              <button class="btn btn-success w-100 fs-4 signButton">Sign In</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="fs-4 fw-light" style="color: #817AD3">A Social Media that cares for you.</div>
+        <!-- SIGN UP FORM -->
+        <div class="card shadow p-3 pb-5" style="width: 350px; border-radius: 12px;">
+          <form action="" class="signup text-center">
+            <h1 class="mb-4 le" style="letter-spacing: 1px;">Sign Up</h1>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control fs-4 h-25" name="email" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control fs-4 h-25" name="username" placeholder="Username">
+              <label for="username">Username</label>
+            </div>
+            <div class="form-floating mt-3">
+              <input type="password" class="form-control fs-4 h-25" name="password" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating mt-4">
+              <button class="btn btn-success w-100 fs-4 signButton">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="module" src="bundle.js">
+  </script>
+  <script type="module" src="../src/front.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
 </body>
 
 </html>

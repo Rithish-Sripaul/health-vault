@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Health Vault</title>
+</head>
+
+<body class="h-100 position-relative">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container position-relative h-100">
+    <div class="row h-100 align-items-center justify-content-center">
+      <h1>Just U</h1>
+    </div>
+    <div class="row h-100 align-items-center justify-content-center">
+      <h1>Foe You. By You.</h1>
+    </div>
+    <div class="row card my-5 shadow position-fixed loginCard translate-middle-y signin-container" style="top: 20%;">
+      <form action="" class="singin text-center">
+        <h1 class="mb-4 le" style="letter-spacing: 1px;">Sign In</h1>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control fs-4 h-25" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control fs-4 h-25" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating mt-4">
+          <button class="btn btn-success w-100 fs-4">Sign In</button>
+        </div>
+      </form>
+    </div>
+    <div class="row my-5 position-fixed login-card translate-middle-y fs-3 fw-bolder" style="top: 42%; left: 80%;"> - Or
+      -
+    </div>
+    <div class="row card my-5 shadow position-fixed loginCard translate-middle-y signup-container" style="top: 67%;">
+      <form action="" class="singup text-center">
+        <h1 class="mb-4 le" style="letter-spacing: 1px;">Sign Up</h1>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control fs-4 h-25" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control fs-4 h-25" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating mt-3">
+          <input type="password" class="form-control fs-4 h-25" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Confirm Password</label>
+        </div>
+        <div class="form-floating mt-4">
+          <button class="btn w-100 fs-4 text-white" style="background-color: #817AD3; letter-spacing: 2px">Sign
+            Up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="bundle.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

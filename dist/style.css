@@ -1,0 +1,93 @@
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.input-group {
+  width: 300px;
+}
+
+.profileImage {
+  border-radius: 100%;
+  max-width: 40px;
+}
+
+.profileImageList {
+  border-radius: 100%;
+  max-width: 60px;
+  border: 2px solid #f00;
+  padding: 2px;
+}
+
+.profileImgSm {
+  border-radius: 100%;
+  max-width: 20px;
+}
+
+.instaLogo {
+  max-width: 100px;
+}
+
+.instaFeedBodyWrap {
+  margin-top: 70px;
+}
+
+.navbar {
+  background-color: #817ad3;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.navbar-brand {
+}
+
+.logoMain {
+  font-size: 160px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #817ad3;
+}
+
+.tasks-color {
+  background-color: #e6e4f6;
+}
+
+.signButton {
+  background-color: #817ad3;
+}
+
+.posts {
+  background-color: #f3f3fc;
+}
+
+.posts-like {
+  border-color: #fa5252;
+  fill: #fa5252;
+}
+
+.flexBoxCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.signin-container,
+.signup-container {
+  padding: 30px;
+  height: auto;
+  left: 70%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 576px) {
+}
